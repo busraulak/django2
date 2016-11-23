@@ -1,0 +1,9 @@
+# django2
+
+import datetime
+import socket
+
+now = datetime.datetime.now().strftime('%H:%M:%S')
+ip = socket.gethostbyname(socket.gethostname())
+
+print ("merhaba", ip , "saat su an" , now)
